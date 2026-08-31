@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Achou Economizou | Automação, Afiliados e Software</title>
+  <meta name="description" content="Site oficial do Achou Economizou, projeto de curadoria de ofertas, automações de conteúdo e desenvolvimento de software por Vitor Baccin." />
+  <meta property="og:title" content="Achou Economizou" />
+  <meta property="og:description" content="Curadoria de ofertas, automações responsáveis e desenvolvimento de software." />
+  <meta name="theme-color" content="#111827" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="./" aria-label="Achou Economizou home">
+      <span class="brand-mark">AE</span>
+      <span>Achou Economizou</span>
+    </a>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#software">Software</a>
+      <a href="./pinterest-app/">App</a>
+      <a href="./privacy-policy/">Privacidade</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Curadoria de ofertas + automação responsável</p>
+        <h1>Conteúdo de ofertas com tecnologia, controle e transparência.</h1>
+        <p class="lead">O Achou Economizou organiza ofertas selecionadas, links de afiliado identificados e fluxos de publicação com revisão, deduplicação e limites de frequência.</p>
+        <div class="actions">
+          <a class="button primary" href="./pinterest-app/">Ver informações do aplicativo</a>
+          <a class="button" href="./privacy-policy/">Política de Privacidade</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Resumo do projeto">
+        <div class="status-pill">Business content tools</div>
+        <h2>Achou Economizou Publisher</h2>
+        <ul>
+          <li>OAuth oficial para integrações</li>
+          <li>Publicação orgânica em canais próprios</li>
+          <li>Filtro de categorias sensíveis</li>
+          <li>Prevenção de conteúdo duplicado</li>
+          <li>Disclosure de afiliado: <strong>#publi</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="sobre" class="section grid-two">
+      <div>
+        <p class="eyebrow">Sobre</p>
+        <h2>Projeto operado por Vitor Baccin</h2>
+      </div>
+      <p>O Achou Economizou é um projeto de curadoria de ofertas e conteúdo comercial. O objetivo é ajudar pessoas a encontrar promoções relevantes, com comunicação clara sobre links de afiliado, preço sujeito a alteração e disponibilidade variável.</p>
+    </section>
+
+    <section id="software" class="section">
+      <p class="eyebrow">Software & automação</p>
+      <h2>Competências e áreas de atuação</h2>
+      <div class="cards">
+        <article class="card"><h3>Automação com n8n</h3><p>Workflows para integração entre APIs, Telegram, Google Drive, Google Sheets, Redis e plataformas de conteúdo.</p></article>
+        <article class="card"><h3>APIs & OAuth</h3><p>Integrações usando autenticação oficial, tokens armazenados em credenciais e fluxos sem coleta de senhas.</p></article>
+        <article class="card"><h3>Curadoria de conteúdo</h3><p>Formatação de posts, controle de frequência, prevenção de duplicados e filtros para conteúdo sensível.</p></article>
+        <article class="card"><h3>Afiliados com transparência</h3><p>Links comerciais identificados com disclosure como #publi e informações objetivas sobre ofertas.</p></article>
+      </div>
+    </section>
+
+    <section class="section callout">
+      <div>
+        <p class="eyebrow">Pinterest API</p>
+        <h2>Informações do aplicativo</h2>
+        <p>O aplicativo é usado para publicar Pins orgânicos em conta Business própria por meio da API oficial, com autorização OAuth, controle de frequência e deduplicação.</p>
+      </div>
+      <a class="button primary" href="./pinterest-app/">Abrir página do app</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Achou Economizou</span>
+    <a href="./privacy-policy/">Política de Privacidade</a>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

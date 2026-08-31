@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aplicativo Achou Economizou Publisher</title>
+  <meta name="description" content="Informações do aplicativo Achou Economizou Publisher para integrações oficiais com APIs de conteúdo." />
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header class="nav"><a class="brand" href="../"><span class="brand-mark">AE</span><span>Achou Economizou</span></a><nav><a href="../">Home</a><a href="../privacy-policy/">Privacidade</a></nav></header>
+  <main class="page prose">
+    <p class="eyebrow">Informações do aplicativo</p>
+    <h1>Achou Economizou Publisher</h1>
+    <p>O Achou Economizou Publisher é uma ferramenta interna para a conta Business do Achou Economizou. O aplicativo ajuda a preparar e publicar Pins orgânicos de curadoria de ofertas em pastas específicas usando APIs oficiais, OAuth e controles de segurança.</p>
+
+    <div class="info-list">
+      <div class="info-row"><span>Empresa</span><div>Achou Economizou</div></div>
+      <div class="info-row"><span>Operador</span><div>Vitor Baccin</div></div>
+      <div class="info-row"><span>Finalidade</span><div>Publicação orgânica de Pins de ofertas selecionadas em conta Business própria.</div></div>
+      <div class="info-row"><span>Acesso</span><div>Uso pessoal/empresarial próprio, sem disponibilização pública para terceiros.</div></div>
+    </div>
+
+    <h2>Como o aplicativo usa APIs</h2>
+    <p>O aplicativo autentica a conta Business autorizada por OAuth e cria Pins orgânicos contendo título, descrição, mídia e link de destino. Quando há link de afiliado, a descrição informa a natureza comercial com marcação como <strong>#publi</strong> ou texto equivalente.</p>
+
+    <h2>Controles de segurança e qualidade</h2>
+    <ul>
+      <li>Uso de OAuth oficial, sem coleta de senhas.</li>
+      <li>Tokens armazenados somente em credenciais da plataforma de automação.</li>
+      <li>Controle conservador de frequência de publicação.</li>
+      <li>Prevenção de Pins duplicados.</li>
+      <li>Filtros para categorias sensíveis ou inadequadas.</li>
+      <li>Publicação apenas em boards da conta Business autorizada.</li>
+      <li>Sem scraping, automação de navegador ou publicação em contas de terceiros.</li>
+    </ul>
+
+    <h2>Escopos previstos</h2>
+    <div class="badge-list"><span class="badge">boards:read</span><span class="badge">boards:write</span><span class="badge">pins:read</span><span class="badge">pins:write</span></div>
+
+    <h2>Contato</h2>
+    <p>Para dúvidas sobre este aplicativo ou solicitações de privacidade, entre em contato com Vitor Baccin pelo canal oficial do projeto.</p>
+  </main>
+  <footer><span>© <span id="year"></span> Achou Economizou</span><a href="../privacy-policy/">Política de Privacidade</a></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
